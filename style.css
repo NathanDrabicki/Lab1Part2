@@ -12,6 +12,7 @@ body {
 
 .company {
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .header-nav-list {
@@ -87,6 +88,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 5px;
   }
 }
 .header-nav-list {
@@ -96,29 +98,37 @@ body {
 }
 
 .half-screen {
+  display: flex;
+  flex: 1;
+}
+.circles-container {
+  display: flex;
   flex: 1;
 }
 .big-circle {
   width: 250px;
   height: 250px;
   background-color: rgba(247, 136, 167, 0.6);
-  flex: 1;
-  position: right;
+  position: absolute;
   border-radius: 50%;
+  top: 10;
+  right: 50px;
 }
 .medium-circle {
   background-color: rgba(247, 193, 162, 0.7);
-  flex: 1;
   width: 175px;
   height: 175px;
-  position: right;
+  position: absolute;
   border-radius: 50%;
+  right: 0;
+  top: 175px;
 }
 .small-circle {
   background-color: rgba(207, 130, 213, 0.6);
-  flex: 1;
   width: 100px;
   height: 100px;
-  position: right;
+  position: absolute;
   border-radius: 50%;
+  right: 0;
+  top: 85px;
 }
